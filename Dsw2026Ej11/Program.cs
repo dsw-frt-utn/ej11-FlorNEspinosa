@@ -1,4 +1,5 @@
-﻿using Dsw2026Ej11.Tests;
+﻿
+using Dsw2026Ej11.Tests;
 
 namespace Dsw2026Ej11;
 
@@ -13,7 +14,7 @@ internal class Program
             Console.Clear();
             MostrarMenu();
 
-            string opcion = Console.ReadLine();
+            string opcion = Console.ReadLine() ?? "";
 
             switch (opcion)
             {
